@@ -1,3 +1,8 @@
+/Gemfile.lock
+
+/target/*
+!/target/gem
+
 # rcov generated
 coverage
 
@@ -9,13 +14,6 @@ doc
 
 # jeweler generated
 pkg
-
-*.gemspec
-target
-*.gem
-
-# Due to different deps in java vs mri gems, cant store Gemfile.lock
-Gemfile.lock
 
 autotest
 
